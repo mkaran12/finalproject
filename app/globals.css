@@ -7,8 +7,11 @@ body {
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .header-button {
+    @apply cursor-pointer p-0 border border-transparent hover:border-white rounded-[2px];
+  }
+  .h1-bold {
+    @apply font-bold lg:text-3xl;
   }
 }
 
